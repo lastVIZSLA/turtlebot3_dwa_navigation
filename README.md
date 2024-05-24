@@ -17,7 +17,7 @@ This ROS package provides a simple goal publisher node for Turtlebot3 using the 
 1. Clone this repository into your catkin workspace:
   ```cpp
   cd ~/catkin_ws/src
-  git clone <repository_url>
+  git clone https://github.com/lastVIZSLA/turtlebot3_dwa_navigation.git
   ```
 
 2. Build the package:
