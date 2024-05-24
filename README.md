@@ -15,21 +15,26 @@ This ROS package provides a simple goal publisher node for Turtlebot3 using the 
 
 ## Installation
 1. Clone this repository into your catkin workspace:
-cd ~/catkin_ws/src
-git clone <repository_url>
+  ```cpp
+  cd ~/catkin_ws/src
+  git clone <repository_url>
+  ```
 
 2. Build the package:
-
+```cpp
 cd ~/catkin_ws
 catkin_make
+```
 
 
 ## Usage
 1. Launch the Turtlebot3 simulation environment. For example:
 
+```cpp
 roslaunch turtlebot3_dwa_navigation send_goals.launch
+```
 
-3. The robot will start moving to random goal positions within the map.
+2. The robot will start moving to random goal positions within the map.
 
 ## Parameters
 - `rate` (default: 10): Rate at which goals are published (in Hz).
