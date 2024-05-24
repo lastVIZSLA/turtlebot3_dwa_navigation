@@ -32,7 +32,7 @@ catkin_make
 1. Launch the Turtlebot3 simulation environment. For example:
 
 ```cpp
-roslaunch turtlebot3_dwa_navigation send_goals.launch
+roslaunch turtlebot3_dwa_navigation turtlebot3_navigation.launch
 ```
 
 2. The robot will start moving to random goal positions within the map.
