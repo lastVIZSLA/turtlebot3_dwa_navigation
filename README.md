@@ -5,8 +5,9 @@
 This ROS package provides a simple goal publisher node for Turtlebot3 using the Dynamic Window Approach (DWA) navigation algorithm. It randomly generates goals within the free space of the map and sends them to the move_base node for navigation.
 
 ## Prerequisites
-- ROS installed on your system (tested with ROS Melodic and ROS Noetic)
+- ROS installed on your system (tested with ROS Noetic)
 - Turtlebot3 simulation environment (e.g., Gazebo) set up and running
+- move_base
 - Dependencies:
   - geometry_msgs
   - actionlib_msgs
